@@ -13,7 +13,7 @@ const blogs = require('./routes/api/blogs');
 const app = express();
 
 
-const conn = mongoose.connect('mongodb+srv://sean:sean@cluster0.wjmmc.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true }, function(){
+const conn = mongoose.connect('//mongoURI',{ useNewUrlParser: true, useUnifiedTopology: true }, function(){
   console.log("mongo is running")
 })
 
