@@ -6,7 +6,6 @@ const path = require('path');
 const cors = require('cors');
 const keys = require('./config/keys.js');
 const jwt = require('jsonwebtoken');
-
 const users = require('./routes/api/users');
 const blogs = require('./routes/api/blogs');
 
